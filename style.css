@@ -1,0 +1,19 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  height: 100px;
+  padding: 40px;
+}
+.first-block {
+  height: 300px;
+}
+section {
+  padding: 40pxs;
+}
+footer {
+  padding: 40px;
+}
