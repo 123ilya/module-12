@@ -2,6 +2,7 @@ html,
 body {
   margin: 0;
   padding: 0;
+  background-color: beige;
 }
 
 header {
@@ -18,7 +19,7 @@ header > div {
   height: 100%;
   margin-left: auto;
   margin-right: auto;
-  background-color: chartreuse;
+  /* background-color: chartreuse; */
 }
 .first-block {
   height: 300px;
@@ -28,6 +29,10 @@ header > div {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+  background-image: url("./img/pngegg.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right center;
 }
 .services {
   display: flex;
@@ -36,10 +41,30 @@ header > div {
 }
 .services > div {
   width: 150px;
-
+}
+.services img {
+  width: 150px;
 }
 section {
   padding: 40px;
+}
+.price-info {
+  background-color: rgb(113 175 47);
+  color: ivory;
+}
+.light-button {
+  border: 1px solid black;
+  background-color: transparent;
+}
+.dark-button {
+  background-color: rgb(113 175 47);
+  border: 1px solid rgb(113 175 47);
+  color: white;
+}
+button {
+  padding: 10px 30px;
+  cursor: pointer;
+  border-radius: 5px;
 }
 footer {
   padding: 40px;
