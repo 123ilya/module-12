@@ -1,13 +1,27 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
 html,
 body {
   margin: 0;
   padding: 0;
-  background-color: beige;
+  background-color: #f6f7f9;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 header {
   height: 100px;
   padding: 0 40px;
+}
+header a {
+  margin-right: 10px;
 }
 header > div {
   display: flex;
@@ -29,10 +43,20 @@ header > div {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  background-image: url("./img/pngegg.png");
+  background-image: url("./img/main.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: right center;
+}
+.first-block p {
+  margin: 25px 0 25px 0;
+}
+.first-block h1 {
+  margin-bottom: 0;
+  font-size: xx-large;
+}
+h2 {
+  font-size: x-large;
 }
 .services {
   display: flex;
@@ -49,7 +73,7 @@ section {
   padding: 40px;
 }
 .price-info {
-  background-color: rgb(113 175 47);
+  background-color: rgb(63 43 255);
   color: ivory;
 }
 .light-button {
@@ -57,8 +81,8 @@ section {
   background-color: transparent;
 }
 .dark-button {
-  background-color: rgb(113 175 47);
-  border: 1px solid rgb(113 175 47);
+  background-color: rgb(63 43 255);
+  border: 1px solid rgb(63 43 255);
   color: white;
 }
 button {
@@ -66,6 +90,23 @@ button {
   cursor: pointer;
   border-radius: 5px;
 }
+.works {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.works img {
+  width: 100%;
+}
+.price-info p {
+  margin-top: 40px;
+  width: 50%;
+}
+.price-info h2 {
+  width: 50%;
+}
+
 footer {
   padding: 40px;
 }
@@ -84,4 +125,11 @@ footer {
   height: 300px;
   padding: 30px;
   border-radius: 5px;
+}
+.footer-link-container {
+  display: flex;
+  flex-direction: column;
+}
+.footer-link-container a {
+  margin-bottom: 5px;
 }
