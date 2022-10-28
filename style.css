@@ -136,16 +136,22 @@ footer {
 .footer-contacts {
   display: flex;
   flex-direction: column;
+  justify-content: space-around
 }
-.footer-rest-links {
+.foter-rest-links {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 footer > div {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
-.footer-socialmedia-links img {
-  height: 10px;
+.foter-socialmedia-links{
+  display: flex;
+  justify-content: space-between;
+}
+.foter-socialmedia-links img {
+  height: 15px;
 }
